@@ -11,7 +11,7 @@
 #signUp fieldset{
     padding: 20px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgb(255, 254, 243);
 }
 #signUp fieldset legend{
     padding: 0 10px;

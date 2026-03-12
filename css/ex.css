@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul, li{
+    list-style: none;
+}
+/* 전체 */
+#wrap{
+    width: 960px;
+    margin: 20px auto;
+    background-color: aliceblue;
+}
+.navi{
+    padding: 10px 0;
+    border-bottom: 1px solid skyblue;
+    background-color: #fff;
+}
+.navi>ul{
+    display: flex;
+    gap: 10px;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.navi>ul>li{
+    width: calc(100% / 4);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(240, 248, 255);
+}
+.navi>ul>li>a{
+    display: block;
+    padding: 20px;
+}
+.navi>ul>li>a:hover{
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 8px;
+    color: #fff;
+    background-color: lightsteelblue;
+}
+/* 이용안내 설명 */
+.container{
+    width: 400px;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    /* background-color: beige; */
+}
+.container li{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(255, 254, 243);
+}
+.container h2{
+    padding-bottom: 10px;
+    /* color: #52719c; */
+}
+/* 타켓 */
+#info:target{
+    color: #fff;
+    background-color: #a0acbd;
+}
+#room:target{
+    color: #fff;
+    background-color: #a0acbd;
+}#pay:target{
+    color: #fff;
+    background-color: #a0acbd;
+}

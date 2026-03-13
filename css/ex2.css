@@ -98,14 +98,14 @@ header{
 }
 /* 푸터 */
 footer{
-    width: 1200px;
-    height: 100px;
-    margin: 0 auto;
+    /* width: 1200px;
+    height: 100px; */
+    /* margin: 0 auto; */
     background-color: #5d729e;
 }
 footer ul{
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     padding: 20px;
 }
 footer ul li{
@@ -113,4 +113,11 @@ footer ul li{
 }
 footer ul li a{
     color: #fff;
+}
+.line{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 0 30px;
+    background-color: skyblue;
 }

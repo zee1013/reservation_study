@@ -22,7 +22,7 @@ header{
     /* padding: 10px; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     /* background-color: skyblue; */
 }
 /* 로고 */
@@ -32,13 +32,13 @@ header{
     line-height: 100px;
     text-align: center;
     /* padding: 10px; */
-    color: #fff;
+    color: #ffffff;
     background-color: rgb(95, 129, 160);
 }
 /* 네비게이션 */
 .navi{
     width: 800px;
-    height: 60px;
+    /* height: 60px; */
     margin-right: 20px ;
     /* background-color: lightblue; */
 }
@@ -51,7 +51,7 @@ header{
 .navi ul li{
     width: calc(100% / 4);
     text-align: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .navi ul li a{
     width: 100%;
@@ -93,7 +93,7 @@ footer{
     /* width: 1200px;
     height: 100px; */
     /* margin: 0 auto; */
-    background-color: #5d729e;
+    background-color: #d8d8d8;
 }
 footer ul{
     display: flex;
@@ -104,12 +104,12 @@ footer ul li{
     padding: 10px;
 }
 footer ul li a{
-    color: #fff;
+    color: #888888;
 }
 .line{
     display: inline-block;
     width: 1px;
     height: 12px;
     margin: 0 30px;
-    background-color: skyblue;
+    background-color: rgb(162, 190, 201);
 }

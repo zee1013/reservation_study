@@ -28,6 +28,9 @@
 .content li h4{
     padding: 10px;
 }
+.content li p{
+    padding-left: 10px;
+}
 .content li:hover{
     transform: scale(1.1);
     cursor: pointer;

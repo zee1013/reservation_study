@@ -23,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 /* 로고 */
 .logo{
@@ -33,14 +33,14 @@ header{
     text-align: center;
     /* padding: 10px; */
     color: #fff;
-    background-color: cadetblue;
+    background-color: rgb(95, 129, 160);
 }
 /* 네비게이션 */
 .navi{
     width: 800px;
     height: 60px;
     margin-right: 20px ;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 .navi ul{
     /* width: calc(100% / 4); */
@@ -77,24 +77,16 @@ header{
 .content ul{
     padding: 20px;
 }
-.content-1{
+.content-1, .content-2{
     width: 1100px;
     padding: 10px;
     display: flex;
 }
-.content-1 ul li h4{
+.content-1 ul li h4, .content-2 ul li h4{
     padding-bottom: 10px;
 }
 .content-1 ul li p{
     padding-bottom: 15px;
-}
-.content-2{
-    width: 1100px;
-    padding: 10px;
-    display: flex;
-}
-.content-2 ul li h4{
-    padding-bottom: 10px;
 }
 /* 푸터 */
 footer{
